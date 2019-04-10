@@ -1,0 +1,2 @@
+﻿  testeOpenCV.cpp
+C:\Users\vinic\source\testeOpenCV\testeOpenCV.cpp(6): fatal error C1083: Não é possível abrir arquivo incluir: 'opencv2/core.hpp': No such file or directory

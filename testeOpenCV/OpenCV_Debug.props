@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d401d.lib;opencv_core401d.lib;opencv_dnn401d.lib;opencv_features2d401d.lib;opencv_flann401d.lib;opencv_gapi401d.lib;opencv_highgui401d.lib;opencv_imgcodecs401d.lib;opencv_imgproc401d.lib;opencv_ml401d.lib;opencv_objdetect401d.lib;opencv_photo401d.lib;opencv_stitching401d.lib;opencv_video401d.lib;opencv_videoio401d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
