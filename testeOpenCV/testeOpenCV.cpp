@@ -29,10 +29,8 @@ int main(){
 
 	//Inicialização da câmera
 	vcap.open(deviceID + apiID);
-
-	vcap.set(CAP_PROP_FPS, 30);						//FPS = 30
-	vcap.set(CAP_PROP_FRAME_WIDTH, 320);	//WIDTH = 320px
-	vcap.set(CAP_PROP_FRAME_HEIGHT, 180);	//HIEGHT = 180px
+	//FPS = 30
+	vcap.set(CAP_PROP_FPS, 30);	
 
 	//Testa se a câmera foi inicializada
 	if (!vcap.isOpened()) {
@@ -80,8 +78,6 @@ int main(){
 
 		//Captura a imagem da câmera
 		vcap.read(curr_frame);
-
-		cout << curr_frame.size << endl;
 
 		//Verifica se foi bem sucedida a captura da imagem
 		if (curr_frame.empty()) {
@@ -169,36 +165,54 @@ bool checkKeyboard(Mat v_cf[], int &v_w, int &v_h, int &v_cop, VideoCapture v_vc
 		//A tecla ESPAÇO limpa todos os traços de todas as cores
 		case 32:	for (int i = 0; i < 3; i++) {
 						v_cf[i] = Mat::zeros(v_w, v_h, CV_8UC1);
-					}return true;
+					}
+					v_text = "IMAGEM LIMPA";
+					v_timer = 15;
+					return true;
 		//A tecla B seleciona o canal de cor AZUL
-		case 98:	v_cop = 0; return true;
+		case 98:	v_cop = 0;
+					v_text = "Canal AZUL";
+					v_timer = 15;
+					return true;
 		//A tecla G seleciona o canal de cor VERDE
-		case 103:	v_cop = 1; return true;
+		case 103:	v_cop = 1;
+					v_text = "Canal VERDE";
+					v_timer = 15;
+					return true;
 		//A tecla R seleciona o canal de cor VERMELHO
-		case 114:	v_cop = 2; return true;
+		case 114:	v_cop = 2;
+					v_text = "Canal VERMELHO";
+					v_timer = 15;
+			return true;
 		//A tecla 1 seleciona o dispositivo de captura padrão
 		case 49:	v_vcap.open(0);
 					if (!v_vcap.isOpened()) {
 						cerr << "ERROR! Unable to open camera\n";
 						return false;
-					}break;
+					}
+					v_text = "Dispositivo Padrao";
+					v_timer = 15;
+					break;
 		//A tecla 2 seleciona o dispositivo de captura alternativo
 		case 50:	v_vcap.open(1);
 					if (!v_vcap.isOpened()) {
 						cerr << "ERROR! Unable to open camera\n";
 						return false;
-					}break;
+					}
+					v_text = "Dispositivo Alternativo";
+					v_timer = 15;
+					break;
 		//A tecla O aumenta o valor de luminosidade
 		case 111:	if (v_lc < 255) {
 						v_lc = v_lc + 5;
-						v_text = to_string(v_lc);
+						v_text = "LUM " + to_string(v_lc);
 						v_timer = 15;
 						return true;
 					}break;
 		//A tecla L diminui o valor de luminosidade
 		case 108:	if (v_lc < 255) {
 						v_lc = v_lc - 5;
-						v_text = to_string(v_lc);
+						v_text = "LUM " + to_string(v_lc);
 						v_timer = 15;
 						return true;
 					}break;
