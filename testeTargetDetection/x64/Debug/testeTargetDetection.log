@@ -1,0 +1,32 @@
+﻿  testeTargetDetection.cpp
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(32,30): warning C4305:  '=': truncamento de 'double' para 'float'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(37,28): warning C4305:  '=': truncamento de 'double' para 'float'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(42,30): warning C4305:  '=': truncamento de 'double' para 'float'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(127,23): warning C4305:  'argumento': truncamento de 'double' para '_Ty'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(127,23): warning C4305:         with
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(127,23): warning C4305:         [
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(127,23): warning C4305:             _Ty=float
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(127,23): warning C4305:         ]
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(128,23): warning C4305:  'argumento': truncamento de 'double' para '_Ty'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(128,23): warning C4305:         with
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(128,23): warning C4305:         [
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(128,23): warning C4305:             _Ty=float
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(128,23): warning C4305:         ]
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(129,23): warning C4305:  'argumento': truncamento de 'double' para '_Ty'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(129,23): warning C4305:         with
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(129,23): warning C4305:         [
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(129,23): warning C4305:             _Ty=float
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(129,23): warning C4305:         ]
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(131,23): warning C4305:  'argumento': truncamento de 'double' para '_Ty'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(131,23): warning C4305:         with
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(131,23): warning C4305:         [
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(131,23): warning C4305:             _Ty=float
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(131,23): warning C4305:         ]
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(132,23): warning C4305:  'argumento': truncamento de 'double' para '_Ty'
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(132,23): warning C4305:         with
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(132,23): warning C4305:         [
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(132,23): warning C4305:             _Ty=float
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(132,23): warning C4305:         ]
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(143,45): warning C4244:  '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\testeTargetDetection.cpp(145,45): warning C4244:  '=': conversão de 'int' para 'float', possível perda de dados
+  testeTargetDetection.vcxproj -> C:\Users\vinic\OneDrive\Documentos\Visual Studio 2019\source\repos\testeTargetDetection\x64\Debug\testeTargetDetection.exe
